@@ -1,0 +1,12 @@
+{
+  "name" : "browser-detect",
+  "url" : "https://github.com/starburst997/haxe-browser-detect",
+  "license" : "MIT",
+  "tags": ["browser", "detect", "html5", "js"],
+  "description" : "Simple HTML5 browser detection for Haxe, kind of like Modernizr.",
+  "version" : "0.0.1",
+  "classPath": "src/",
+  "releasenote" : "",
+  "contributors" : ["starburst997"],
+  "dependencies" : {}
+}

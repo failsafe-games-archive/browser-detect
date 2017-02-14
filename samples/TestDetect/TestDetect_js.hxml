@@ -1,0 +1,6 @@
+-lib browser-detect
+-lib statistics
+-lib trace-timer
+-cp Source
+-js Server/js/TestDetect.js
+-main Main
