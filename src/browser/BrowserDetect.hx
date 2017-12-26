@@ -72,7 +72,7 @@ class BrowserDetect
     if ( _hasDecodeAudioData > 0 ) return _hasDecodeAudioData == 1;
 
     var ctx = new AudioContext();
-    if ( untyped __typeof__(ctx.decodeAudioData) == "function" )
+    if ( untyped js.Syntax.typeof(ctx.decodeAudioData) == "function" )
     {
       ctx.close();
       _hasDecodeAudioData = 1;
